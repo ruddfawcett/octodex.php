@@ -14,13 +14,13 @@
 		 * Creates a new Octodex instance
 		 */
 		
-        public function __construct () {
+		public function __construct () {
 			// If you don't have cURL, this clas is unuseable, so check if you have cURL
 			if (!extension_loaded('cURL')) {
 				// if you don't, stop and tell the developer
 				throw new Exception('This Octodex PHP Class requires cURL to work...');
 			}
-        }
+		}
 
 		/**
 		 * Fetches the complete octodex
