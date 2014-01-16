@@ -1,10 +1,10 @@
 octodex.php
 ===========
 
-A PHP class for the Octodex API.
+A PHP wrapper for the Octodex API.
 
 ##Use
-Use this class like any other PHP class:
+Use this wrapper like any other PHP class:
 
 ```php
 // include the PHP Octodex class
